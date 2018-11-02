@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# (echo -e "HTTP/1.1 200 OK\nContent-Type: text/html\n\n Hello from APP";) | nc -l -p 8001
-
-
 make_response () {
 echo -en "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\n\r\n
 Hello from api!
